@@ -1,0 +1,12 @@
+Better Banners
+----------------------
+
+This mod will actually make banners useful.
+-pepak
+
+PATCH NOTES
+---------------
+ver: ALPHA v0.0.1
+� Added 2 new banners:
+    - Surface Slimes
+    - Pre-Hardmode Night Monsters

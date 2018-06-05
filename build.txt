@@ -1,0 +1,4 @@
+author = pepak
+version = 0.0.1
+displayName = Better Banners
+languageVersion = 6

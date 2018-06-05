@@ -1,0 +1,1 @@
+ItemTooltip.SlimesBanner={$CommonItemTooltip.BannerBonus}{$NPCName.BlueSlime}\n{$NPCName.GreenSlime}\n{$NPCName.PurpleSlime}\n{$NPCName.SandSlime}\n
