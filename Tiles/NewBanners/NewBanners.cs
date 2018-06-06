@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using BetterBanners.ID;
 
-namespace BetterBanners.Tiles
+namespace BetterBanners.Tiles.NewBanners
 {
     public class NewBanners : ModTile
     {
