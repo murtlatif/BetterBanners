@@ -17,7 +17,7 @@ namespace BetterBanners.Items.Flag
             // Display
             item.width = 32;
             item.height = 32;
-            item.holdStyle = 1;
+            item.holdStyle = 0;
 
             // Meta
             item.maxStack = 1;

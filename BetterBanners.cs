@@ -19,13 +19,22 @@ namespace BetterBanners
 	{
 		internal FlagModifierUI flagModifierUI;
 		private UserInterface userInterface;
+		public static BetterBanners instance;
 
 		public BetterBanners()
 		{
+			/*	TODO:
+			*	MODIFY: {FlagItemSlot.cs / UIItemSlot.cs} -> Complete UI interface and allow the insertion/removal of a flag item
+			* 	CREATE: {BrannerItemSlot.cs} -> Allow the insertion/removal of a banner into a flag
+			* 	MODIFY: {Flag.cs} to be upgradeable and unlock up to 5 banner slots
+			*	MODIFY: {FlagModifier.cs} to close the UI after moving the distance (done, but not implemented. connect modPlayer.OpenFlagModifier())
+			*/
 		}
 
 		public override void Load()
 		{
+			instance = this;
+
 			flagModifierUI = new FlagModifierUI();
 			flagModifierUI.Activate();
 			userInterface = new UserInterface();
@@ -56,6 +65,11 @@ namespace BetterBanners
 					InterfaceScaleType.UI)
 				);
 			}
+		}
+
+		public override void Unload()
+		{
+			instance = null;
 		}
 	}
 }

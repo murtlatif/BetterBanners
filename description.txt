@@ -7,6 +7,7 @@ This mod will actually make banners useful.
 PATCH NOTES
 ---------------
 ver: ALPHA v0.0.1
-� Added 2 new banners:
-    - Surface Slimes
-    - Pre-Hardmode Night Monsters
+- Added a FlagModifier which correctly closes and opens based on player interactions
+- Added 2 new banners:
+    > Surface Slimes
+    > Pre-Hardmode Night Monsters
